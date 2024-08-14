@@ -1,0 +1,36 @@
+──(omar㉿kali)-[~]
+└─$ mkdir omar                                                                                                                                                                                                                                      
+┌──(omar㉿kali)-[~]
+└─$ cd omar                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ touch one.txt two.txt three.txt four.txt                                                                                                                                                                                                                            
+┌──(omar㉿kali)-[~/omar]
+└─$ mkdir BAD                                                                                                                                                                                                                             
+┌──(omar㉿kali)-[~/omar]
+└─$ cd BAD                                                                                                                                                                                                  
+┌──(omar㉿kali)-[~/omar/BAD]
+└─$ touch bad.txt                                                                                                                                                                                                                                        
+┌──(omar㉿kali)-[~/omar/BAD]
+└─$ cd ..                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ mv one.txt /home/omar/Downloads                                                                                                                                                                                                                                
+┌──(omar㉿kali)-[~/omar]
+└─$ cd ~                                                                                                                                                                                                                                 
+┌──(omar㉿kali)-[~]
+└─$ cd Downloads                                                                                                                                                                                                            
+┌──(omar㉿kali)-[~/Downloads]
+└─$ cp one.txt copy.txt                                                                                                                                                                                                                  
+┌──(omar㉿kali)-[~/Downloads]
+└─$ cd ~                                                                                                                                                                                                                                         
+┌──(omar㉿kali)-[~]
+└─$ cd omar                                                                                                                                                                                                                     
+┌──(omar㉿kali)-[~/omar]
+└─$ nano two.txt                                                                                                                                                                                                          
+┌──(omar㉿kali)-[~/omar]
+└─$ echo 1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC >> three.txt                                                                                                                                                                                                         
+┌──(omar㉿kali)-[~/omar]
+└─$ mv three.txt hello.txt                                                                                                                                                                                                                         
+┌──(omar㉿kali)-[~/omar]
+└─$ rm four.txt                                                                                                                                                                                                                              
+┌──(omar㉿kali)-[~/omar]
+└─$ rm -r BAD  
