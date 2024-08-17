@@ -1,0 +1,65 @@
+──(omar㉿kali)-[~/omar]
+└─$ git config --global user.name Omarbadr707
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ git config --global user.email omrrbaxz@gmail.com
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ git init
+          
+┌──(omar㉿kali)-[~/omar]
+└─$ git clone https://github.com/Omarbadr707/Osc_Tasks.git /home/omar/omar
+
+──(omar㉿kali)-[~/omar]
+└─$ mkdir task-2
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ la
+.git  .gitattributes  README.md  task-1  task-2
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ cd task-2
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar/task-2]
+└─$ touch greeting.txt
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar/task-2]
+└─$ echo hello world >> greeting.txt                                                                                 
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar/task-2]
+└─$ cat greeting.txt
+hello world
+
+┌──(omar㉿kali)-[~/omar]
+└─$ git add task-2
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ git status -s 
+A  task-2/greeting.txt
+
+──(omar㉿kali)-[~/omar]
+└─$ git commit -m " Added greeting"
+
+┌──(omar㉿kali)-[~/omar]
+└─$ git switch  intro 
+
+──(omar㉿kali)-[~/omar]
+└─$ cd task-2
+
+┌──(omar㉿kali)-[~/omar/task-2]
+└─$ echo I love Git >> greeting.txt
+
+┌──(omar㉿kali)-[~/omar]
+└─$ git add task-2
+                                                                                                                                                                                                                                           
+┌──(omar㉿kali)-[~/omar]
+└─$ git commit -m "Added I love Git"
+
+┌──(omar㉿kali)-[~/omar]
+└─$ git switch main
+
+┌──(omar㉿kali)-[~/omar]
+└─$ git merge intro
+
+┌──(omar㉿kali)-[~/omar/task-2]
+└─$ touch solution.txt
