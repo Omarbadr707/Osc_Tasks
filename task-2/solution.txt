@@ -58,7 +58,7 @@ A  task-2/greeting.txt
 └─$ git merge intro
 
 ┌──(omar㉿kali)-[~/omar/task-2]
-└─$ git remote add origin https://github.com/Omarbadr707/Osc_Tasks/tree/main  
+└─$ git remote add origin https://github.com/Omarbadr707/Osc_Tasks.git  
 
 ┌──(omar㉿kali)-[~/omar/task-2]
 └─$ git push -u origin main
