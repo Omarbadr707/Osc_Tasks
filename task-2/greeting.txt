@@ -1,2 +1,6 @@
 hello world
+<<<<<<< HEAD
 I love Git 
+=======
+I love Git
+>>>>>>> intro

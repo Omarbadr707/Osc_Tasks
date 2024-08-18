@@ -26,10 +26,6 @@
 ┌──(omar㉿kali)-[~/omar/task-2]
 └─$ echo hello world >> greeting.txt                                                                                 
                                                                                                                                                                                                                                            
-┌──(omar㉿kali)-[~/omar/task-2]
-└─$ cat greeting.txt
-hello world
-
 ┌──(omar㉿kali)-[~/omar]
 └─$ git add task-2
                                                                                                                                                                                                                                            
@@ -62,4 +58,11 @@ A  task-2/greeting.txt
 └─$ git merge intro
 
 ┌──(omar㉿kali)-[~/omar/task-2]
+└─$ git remote add origin https://github.com/Omarbadr707/Osc_Tasks/tree/main  
+
+┌──(omar㉿kali)-[~/omar/task-2]
+└─$ git push -u origin main
+
+┌──(omar㉿kali)-[~/omar/task-2]
 └─$ touch solution.txt
+
