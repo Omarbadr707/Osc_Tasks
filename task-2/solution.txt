@@ -57,6 +57,9 @@ A  task-2/greeting.txt
 ┌──(omar㉿kali)-[~/omar]
 └─$ git merge intro
 
+┌──(omar㉿kali)-[~/omar]
+└─$ git tag v1
+
 ┌──(omar㉿kali)-[~/omar/task-2]
 └─$ git remote add origin https://github.com/Omarbadr707/Osc_Tasks.git  
 
