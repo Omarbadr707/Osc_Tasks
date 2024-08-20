@@ -1,0 +1,29 @@
+$ mkdir project_files
+$ mkdir reports logs data
+$ touch /home/omar/project_files/reports/report1.md /home/omar/project_files/reports/ report2.md
+$ touch /home/omar/project_files/logs/system.log /home/omar/project_files/logs/error.log /home/omar/project_files/logs/file1.pdf /home/omar/project_files/logs/file2.pdf
+$ touch /home/omar/project_files/data/data.csv /home/omar/project_files/data/info.txt
+$ nano data.csv
+$ nano report1.md
+$ nano system.log
+$ tar -cf log_backup.tar error.log file1.pdf file2.pdf system.log
+$  mv log_backup.tar /home/omar/project_files
+$ tar -xvf log_backup.tar -C /home/omar/project_files/logs
+$ find . -name  "*.md"
+$ find /home/omar/project_files -name  "*.md"
+$ find /home/omar/project_files -name  "*.log"
+$ find /home/omar/project_files -name  "file1.pdf"
+$ find /home/omar/project_files -iname "*.pdf"
+$ find /home/omar/project_files/logs -type f
+$ ln -s /home/omar/project_files/data/data.csv /home/omar/project_files/link_data.csv
+$ echo hello world > link_data.csv
+$ cat /home/omar/project_files/data/data.csv
+$ unlink link_data.csv 
+$ touch summary.txt
+$ echo summary start > summary.txt
+$ date >> summary.txt
+$ wc -l summary.txt | tee >> summary.txt
+$ wc -w /home/omar/project_files/reports/report1.md
+$ wc -c /home/omar/project_files/logs/system.log | tee >> summary.txt
+$ ls /home/omar/project_files | wc -l | tee >> summary.txt
+$ cat  summary.txt
