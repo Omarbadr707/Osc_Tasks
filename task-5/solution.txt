@@ -1,0 +1,2 @@
+$ touch emails.txt |cut -d ","  -f 2  info.csv | sort | uniq  | tee emails.txt
+$ touch proccess.txt | ps -e --sort=cmd | awk '{print $1,$4}' | tee proccess.txt
